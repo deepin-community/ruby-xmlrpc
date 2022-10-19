@@ -1,0 +1,2 @@
+version=4
+https://github.com/ruby/xmlrpc/tags .*/v(.*).tar.gz

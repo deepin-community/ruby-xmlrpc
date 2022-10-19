@@ -1,0 +1,46 @@
+ruby-xmlrpc (0.3.2-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Cédric Boutillier ]
+  * Update team name
+  * Add .gitattributes to keep unwanted files out of the source package
+
+  [ Chris Hofstaedtler ]
+  * Remove myself from Uploaders
+
+  [ Debian Janitor ]
+  * Update watch file format version to 4.
+  * Bump debhelper from old 11 to 13.
+  * Set debhelper-compat version in Build-Depends.
+
+  [ Lucas Kanashiro ]
+  * d/watch: track upstream tags instead of releases
+  * New upstream version 0.3.2 (Closes: #996525)
+  * Add b-d on ruby-webrick
+  * d/copyright: remove tabs from license text
+  * Declare compliance with Debian Policy 4.6.0
+
+ -- Lucas Kanashiro <kanashiro@debian.org>  Fri, 05 Nov 2021 11:20:11 -0300
+
+ruby-xmlrpc (0.3.0-2) unstable; urgency=medium
+
+  * Mark ruby-xmlrpc as M-A: foreign, for libruby2.5 M-A
+  * Bump Standards-Version to 4.1.5
+  * Add myself to Uploaders:
+  * d/copyright: trim trailing whitespace
+
+ -- Chris Hofstaedtler <zeha@debian.org>  Sun, 22 Jul 2018 11:28:27 +0000
+
+ruby-xmlrpc (0.3.0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Antonio Terceiro <terceiro@debian.org>  Sat, 31 Mar 2018 15:03:47 -0300
